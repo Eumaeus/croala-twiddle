@@ -1,11 +1,11 @@
-# hmt-twiddle
+# croala-twiddle
 
-Analyzing the HMT archive using [utwiddle](https://github.com/neelsmith/utwiddle).
+Analyzing CroALa Texts using [utwiddle](https://github.com/neelsmith/utwiddle).
 
 ## Data sets
 
-- `data/hmt_2cols.tsv` : all HMT texts in two-column format.  Automatically generated from HMT archive on Feb. 18, 2017
-- `data/critsignorca.tsv` : occurrences of critical signs. Generated from HMT archive on Feb. 18, 2017
+- `data/croala.tsv` : a selection of CroALa texts in 2-column format.
+- `data/croala.cex` : a selection of CroALa texts in a `.cex` repository.
 
 
 ## Quick start
@@ -14,13 +14,12 @@ Analyzing the HMT archive using [utwiddle](https://github.com/neelsmith/utwiddle
 
 From with the sbt console,
 
-    > :load loadhmt.sc
+    > :load loadcroala.sc
 
 
-This creates two objects:
+This creates:
 
-1. `corpus` : the complete HMT Greek text corpus.
-2. `orca` : an alignment of all critical signs with Iliadic lines
+1. `corpus` : the complete CroALa corpus
 
 
 For an introduction to working with these objects, see [this introductory guide](intro.md).
@@ -28,8 +27,3 @@ For an introduction to working with these objects, see [this introductory guide]
 
 ## A few sample scripts
 
-Comments in each script explain usage.
-
-- `publishReading.sc`. Generate diplomatic or normalized 2-column versions of analyzed documents.
-- `hmt-ngrams.sc`. Play with n-grams and histograms of n-grams in all HMT texts.
-- `hmtErrors.sc`. Log all errors encountered in analyzing text corpus.
