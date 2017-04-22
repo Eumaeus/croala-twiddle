@@ -54,7 +54,7 @@ To see the documentation for the OHCO2 and CITE code libraries, follow these lin
 
 > `hdtGreekUrn ~~ hdtEnglishUrn`
 
-### Corpus Twiddling
+### Corpus Twiddling & Corpus Arithmetic
 
 - Pull the first ten lines of the *Iliad* out of `corpus`, and make a new Corpus object of them
 
@@ -80,6 +80,48 @@ To see the documentation for the OHCO2 and CITE code libraries, follow these lin
 
 > `printCorpus(iliadTwenty)`
 
+- Make another corpus, this time specifying *Iliad* 1.1-1.20 in a particular version
+
+> `val iliadNewTwenty = corpus ~~ CtsUrn("urn:cts:greekLit:tlg0012.tlg001.allen:1.1-1.20")`
+
+- Confirm that the two corpora are identical
+
+> `iliadTwenty == iliadNewTwenty`
+
 - **Exercise**: Create a corpus of *Iliad* 1.5-1.15. Then create a corpus that has *Iliad* 1.1-1.4 and 1.16-1.20, in the fewest possible steps.
 
-## N-Grams
+## Exploring Corpora
+
+- Make a corpus of Kuniç’ *Iliad*
+
+> `val ilias = corpus ~~ iliadLatinUrn` (*n.b.* the `val` `iliadLatinUrn` was defined when you loaded `loadcroala.sc`. You can see its value by typing `iliadLatinUrn` in the console.)
+
+- See it
+
+> `printCorpus(ilias)`
+
+- Get 2-grams in Kuniç’s *Ilias*, that occur at least 5 times, ignoring punctuation
+
+> `ilias.ngramHisto(2,5,true)` (Note that you don’t actually have to do the `val X =` bit every time, in `sbt console`. You can simply make a Scala statement, and `sbt` will create a new `val` for it, names `resN`, where `N` is a number. You can use that as a `val` henceforth.)
+
+- Confirm that the result is something you can consider scholarship by grabbing the *citations* for one of those ngrams
+
+> `val ships = ilias.urnsForNGram("ad naves")`
+
+- See what you got
+
+> `for (u <- ships) println(u)`
+
+- Use the up-arrow key to go back in your command-history, and play around with the N-Gram values.
+
+- Let's find some bishops! Search the entire corpus for "episco"
+
+> `val bishop = corpus.find("episco")`
+
+- See what you got
+
+> `printCorpus(bishop)`
+
+- See just the URNs
+
+> `for (u <- bishop.nodes) println(u.urn)`
