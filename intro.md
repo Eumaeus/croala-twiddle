@@ -1,15 +1,14 @@
-# Using `hmt-twiddle`
+# Using `croala-twiddle`
 
 ## Introduction
 
-`hmt-twiddle` sets up a Scala build environment to facilitate interactive work with HMT data sets in an sbt console.  To use it, start a console (`sbt console`), and from the console prompt load the script `loadhmt.sc`, like this:
+`croala-twiddle` sets up a Scala build environment to facilitate interactive work with a sample of the CroALa data set in an `sbt` console.  To use it, start a console (`sbt console`), and from the console prompt load the script `loadcroala.sc`, like this:
 
-    :load loadhmt.sc
+    :load loadcroala.sc
 
 This loads all the code libraries you need, and creates two data objects:
 
 1. `corpus` : the complete HMT Greek text corpus.
-2. `orca` : an alignment of all critical signs with Iliadic lines
 
 
 This guide illustrates a few ways you can work with these objects.
@@ -43,9 +42,6 @@ You can use URN twiddling to select some subset of texts as a corpus:
 A single line of code can analyze any corpus of texts that follows HMT markup conventions. The result is a Vector of `TokenAnalysis` objects.
 
     val tokens = TeiReader.fromCorpus(mainScholia)
-
-
-
 
 ## Turn a vector of analyses into a new text corpus citable by token
 

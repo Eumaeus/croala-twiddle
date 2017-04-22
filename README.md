@@ -16,7 +16,6 @@ From with the sbt console,
 
     > :load loadcroala.sc
 
-
 This creates:
 
 1. `corpus` : the complete CroALa corpus
@@ -26,4 +25,3 @@ For an introduction to working with these objects, see [this introductory guide]
 
 
 ## A few sample scripts
-

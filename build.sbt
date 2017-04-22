@@ -3,13 +3,10 @@
 scalaVersion := "2.11.8"
 
 resolvers += Resolver.jcenterRepo
-resolvers += Resolver.bintrayRepo("neelsmith","maven")
+resolvers += "beta" at "http://beta.hpcc.uh.edu/nexus/content/repositories/releases"
+resolvers += Resolver.bintrayRepo("neelsmith", "maven")
 libraryDependencies ++=   Seq(
-  "edu.holycross.shot.cite" %% "xcite" % "2.1.0",
-  "edu.holycross.shot" %% "ohco2" % "6.5.2",
-  "edu.holycross.shot" %% "orca" % "3.0.0",
-
-  "edu.holycross.shot" %% "greek" % "1.3.3",
-  "edu.holycross.shot" %% "gsphone" % "1.0.1",
-  "org.homermultitext" %% "hmt-textmodel" % "1.2.1"
+  "edu.holycross.shot.cite" %% "xcite" % "2.2.3",
+	"edu.holycross.shot" %% "ohco2" % "8.0.1",
+  "edu.holycross.shot" %% "scm" % "2.1.2"
 )
