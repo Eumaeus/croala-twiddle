@@ -1,0 +1,672 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>ohco2 - edu.holycross.shot.ohco2</title>
+          <meta name="description" content="ohco2 - edu.holycross.shot.ohco2" />
+          <meta name="keywords" content="ohco2 edu.holycross.shot.ohco2" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'edu.holycross.shot.ohco2.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="edu">edu</a>.<a href="../../package.html" class="extype" name="edu.holycross">holycross</a>.<a href="../package.html" class="extype" name="edu.holycross.shot">shot</a></p>
+        <h1>ohco2</h1><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ohco2</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By Inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="edu.holycross.shot.ohco2"><span>ohco2</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show All</span></li>
+            </ol>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="edu.holycross.shot.ohco2.Catalog" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CatalogextendsProductwithSerializable"></a>
+      <a id="Catalog:Catalog"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Catalog.html"><span class="name">Catalog</span></a><span class="params">(<span name="texts">texts: <span class="extype" name="scala.Vector">Vector</span>[<a href="CatalogEntry.html" class="extype" name="edu.holycross.shot.ohco2.CatalogEntry">CatalogEntry</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@CatalogextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Catalog for an entire text repository.</p><div class="fullcomment"><div class="comment cmt"><p>Catalog for an entire text repository.
+</p></div><dl class="paramcmts block"><dt class="param">texts</dt><dd class="cmt"><p>Set of catalog entries.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@JSExport</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.CatalogEntry" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CatalogEntryextendsProductwithSerializable"></a>
+      <a id="CatalogEntry:CatalogEntry"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="CatalogEntry.html"><span class="name">CatalogEntry</span></a><span class="params">(<span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="citationScheme">citationScheme: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="groupName">groupName: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="workTitle">workTitle: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="versionLabel">versionLabel: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>, <span name="exemplarLabel">exemplarLabel: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="online">online: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">true</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@CatalogEntryextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Entry for a single concrete version of a text.</p><div class="fullcomment"><div class="comment cmt"><p>Entry for a single concrete version of a text.
+</p></div><dl class="paramcmts block"><dt class="param">urn</dt><dd class="cmt"><p>URN for the version.</p></dd><dt class="param">citationScheme</dt><dd class="cmt"><p>Label for citation scheme, with levels
+separated by &quot;/&quot;, e.g., &quot;book/chapter&quot;.</p></dd><dt class="param">groupName</dt><dd class="cmt"><p>Label for text group.</p></dd><dt class="param">workTitle</dt><dd class="cmt"><p>Title of notional work.</p></dd><dt class="param">versionLabel</dt><dd class="cmt"><p>Label for edition or translation.</p></dd><dt class="param">exemplarLabel</dt><dd class="cmt"><p>Label for optional exemplar, or None.</p></dd><dt class="param">online</dt><dd class="cmt"><p>True if the text is present in the cataloged <a href="Corpus.html" class="extype" name="edu.holycross.shot.ohco2.Corpus">Corpus</a>.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@JSExport</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.CitableNode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CitableNodeextendsProductwithSerializable"></a>
+      <a id="CitableNode:CitableNode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="CitableNode.html"><span class="name">CitableNode</span></a><span class="params">(<span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="text">text: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@CitableNodeextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">The smallest canonically citable unit of a text.</p><div class="fullcomment"><div class="comment cmt"><p>The smallest canonically citable unit of a text.
+</p></div><dl class="paramcmts block"><dt class="param">urn</dt><dd class="cmt"><p>URN identifying the node.</p></dd><dt class="param">text</dt><dd class="cmt"><p>Text contents of the node.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@JSExport</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.CitationLabel" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CitationLabelextendsProductwithSerializable"></a>
+      <a id="CitationLabel:CitationLabel"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="CitationLabel.html"><span class="name">CitationLabel</span></a><span class="params">(<span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="citationScheme">citationScheme: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@CitationLabelextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt class="param">urn</dt><dd class="cmt"><p>URN for the version.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@JSExport</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.Corpus" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CorpusextendsProductwithSerializable"></a>
+      <a id="Corpus:Corpus"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Corpus.html"><span class="name">Corpus</span></a><span class="params">(<span name="nodes">nodes: <span class="extype" name="scala.Vector">Vector</span>[<a href="CitableNode.html" class="extype" name="edu.holycross.shot.ohco2.CitableNode">CitableNode</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@CorpusextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A corpus of citable texts.</p><div class="fullcomment"><div class="comment cmt"><p>A corpus of citable texts.
+</p></div><dl class="paramcmts block"><dt class="param">nodes</dt><dd class="cmt"><p>Contents of the citable corpus</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@JSExport</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.DocumentFormat" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="DocumentFormatextendsAnyRef"></a>
+      <a id="DocumentFormat:DocumentFormat"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="DocumentFormat.html"><span class="name">DocumentFormat</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@DocumentFormatextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Set of recognized formats implementing
+OHCO2 model of citable texts.</p>
+    </li><li name="edu.holycross.shot.ohco2.LabelCatalog" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="LabelCatalogextendsProductwithSerializable"></a>
+      <a id="LabelCatalog:LabelCatalog"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="LabelCatalog.html"><span class="name">LabelCatalog</span></a><span class="params">(<span name="texts">texts: <span class="extype" name="scala.Vector">Vector</span>[<a href="CitationLabel.html" class="extype" name="edu.holycross.shot.ohco2.CitationLabel">CitationLabel</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@LabelCatalogextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Catalog for an entire text repository.</p><div class="fullcomment"><div class="comment cmt"><p>Catalog for an entire text repository.
+</p></div><dl class="paramcmts block"><dt class="param">texts</dt><dd class="cmt"><p>Set of catalog entries.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@JSExport</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.Ohco2Exception" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Ohco2ExceptionextendsExceptionwithProductwithSerializable"></a>
+      <a id="Ohco2Exception:Ohco2Exception"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Ohco2Exception.html"><span class="name">Ohco2Exception</span></a><span class="params">(<span name="message">message: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cause">cause: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Throwable">Throwable</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Exception">Exception</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@Ohco2ExceptionextendsExceptionwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Exception thrown by a class in this library.</p>
+    </li><li name="edu.holycross.shot.ohco2.OnlineDocument" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OnlineDocumentextendsProductwithSerializable"></a>
+      <a id="OnlineDocument:OnlineDocument"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="OnlineDocument.html"><span class="name">OnlineDocument</span></a><span class="params">(<span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="format">format: <a href="DocumentFormat.html" class="extype" name="edu.holycross.shot.ohco2.DocumentFormat">DocumentFormat</a></span>, <span name="docName">docName: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@OnlineDocumentextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Metadata about a citable text in a local file.</p><div class="fullcomment"><div class="comment cmt"><p>Metadata about a citable text in a local file.
+</p></div><dl class="paramcmts block"><dt class="param">urn</dt><dd class="cmt"><p>CtsUrn for the text.</p></dd><dt class="param">format</dt><dd class="cmt"><p>OHCO2 format of the file.</p></dd><dt class="param">docName</dt><dd class="cmt"><p>Relative or absolute path to the document.</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.StringCount" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="StringCountextendsProductwithSerializable"></a>
+      <a id="StringCount:StringCount"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="StringCount.html"><span class="name">StringCount</span></a><span class="params">(<span name="s">s: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="count">count: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@StringCountextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Number of occurrences of a String in a corpus.</p><div class="fullcomment"><div class="comment cmt"><p>Number of occurrences of a String in a corpus.
+</p></div><dl class="paramcmts block"><dt class="param">s</dt><dd class="cmt"><p>String</p></dd><dt class="param">count</dt><dd class="cmt"><p>Number of occurrences in a corpus.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@JSExport</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.StringHistogram" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="StringHistogramextendsProductwithSerializable"></a>
+      <a id="StringHistogram:StringHistogram"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="StringHistogram.html"><span class="name">StringHistogram</span></a><span class="params">(<span name="histogram">histogram: <span class="extype" name="scala.Vector">Vector</span>[<a href="StringCount.html" class="extype" name="edu.holycross.shot.ohco2.StringCount">StringCount</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@StringHistogramextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Counts of occurrences of strings.</p><div class="fullcomment"><div class="comment cmt"><p>Counts of occurrences of strings.
+</p></div><dl class="paramcmts block"><dt class="param">histogram</dt><dd class="cmt"><p>String counts, created in descending order by
+<a href="Corpus.html" class="extype" name="edu.holycross.shot.ohco2.Corpus">Corpus</a> object's histogram builders.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@JSExport</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.TextRepository" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TextRepositoryextendsProductwithSerializable"></a>
+      <a id="TextRepository:TextRepository"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="TextRepository.html"><span class="name">TextRepository</span></a><span class="params">(<span name="corpus">corpus: <a href="Corpus.html" class="extype" name="edu.holycross.shot.ohco2.Corpus">Corpus</a></span>, <span name="catalog">catalog: <a href="Catalog.html" class="extype" name="edu.holycross.shot.ohco2.Catalog">Catalog</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@TextRepositoryextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A cataloged corpus of texts.</p><div class="fullcomment"><div class="comment cmt"><p>A cataloged corpus of texts.
+</p></div><dl class="paramcmts block"><dt class="param">corpus</dt><dd class="cmt"><p>The text contents.</p></dd><dt class="param">catalog</dt><dd class="cmt"><p>The catalog</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@JSExport</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2.XfRow" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="XfRowextendsProductwithSerializable"></a>
+      <a id="XfRow:XfRow"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="XfRow.html"><span class="name">XfRow</span></a><span class="params">(<span name="urn">urn: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="nxt">nxt: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="prv">prv: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="txt">txt: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@XfRowextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A citable node in the model of the 82XF format.</p><div class="fullcomment"><div class="comment cmt"><p>A citable node in the model of the 82XF format.
+</p></div><dl class="paramcmts block"><dt class="param">urn</dt><dd class="cmt"><p>string value of the node's URN.</p></dd><dt class="param">prv</dt><dd class="cmt"><p>string value of the preceding node's URN, or an empty string if this node is the first node of a text.</p></dd><dt class="param">txt</dt><dd class="cmt"><p>text contents of the node.</p></dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="edu.holycross.shot.ohco2.Catalog" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Catalog"></a>
+      <a id="Catalog:Catalog"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Catalog$.html"><span class="name">Catalog</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@Catalog" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Factory for making catalogs from text sources.</p>
+    </li><li name="edu.holycross.shot.ohco2.CitableNode" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CitableNode"></a>
+      <a id="CitableNode:CitableNode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CitableNode$.html"><span class="name">CitableNode</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@CitableNode" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Factory for citable nodes with punctuation stripped out.</p>
+    </li><li name="edu.holycross.shot.ohco2.Corpus" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Corpus"></a>
+      <a id="Corpus:Corpus"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Corpus$.html"><span class="name">Corpus</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@Corpus" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Factory for <a href="Corpus.html" class="extype" name="edu.holycross.shot.ohco2.Corpus">edu.holycross.shot.ohco2.Corpus</a> instances.</p>
+    </li><li name="edu.holycross.shot.ohco2.CorpusSource" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CorpusSource"></a>
+      <a id="CorpusSource:CorpusSource"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CorpusSource$.html"><span class="name">CorpusSource</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@CorpusSource" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="edu.holycross.shot.ohco2.Markdown" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Markdown"></a>
+      <a id="Markdown:Markdown"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Markdown$.html"><span class="name">Markdown</span></a><span class="result"> extends <a href="DocumentFormat.html" class="extype" name="edu.holycross.shot.ohco2.DocumentFormat">DocumentFormat</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@Markdown" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Markdown, adhering to OHCO2 requirements for
+hierarchical consistency.</p>
+    </li><li name="edu.holycross.shot.ohco2.Oxf" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Oxf"></a>
+      <a id="Oxf:Oxf"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Oxf$.html"><span class="name">Oxf</span></a><span class="result"> extends <a href="DocumentFormat.html" class="extype" name="edu.holycross.shot.ohco2.DocumentFormat">DocumentFormat</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@Oxf" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">82XF format.</p>
+    </li><li name="edu.holycross.shot.ohco2.TextRepository" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TextRepository"></a>
+      <a id="TextRepository:TextRepository"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TextRepository$.html"><span class="name">TextRepository</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@TextRepository" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Factory for constructing <a href="TextRepository.html" class="extype" name="edu.holycross.shot.ohco2.TextRepository">TextRepository</a> fromFile
+source data in CEX format.</p>
+    </li><li name="edu.holycross.shot.ohco2.TextRepositorySource" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TextRepositorySource"></a>
+      <a id="TextRepositorySource:TextRepositorySource"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TextRepositorySource$.html"><span class="name">TextRepositorySource</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@TextRepositorySource" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Factory for <a href="TextRepository.html" class="extype" name="edu.holycross.shot.ohco2.TextRepository">TextRepository</a> objects and
+string representations of repositories in
+<code>.cex</code> format.</p>
+    </li><li name="edu.holycross.shot.ohco2.Two_Column" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Two_Column"></a>
+      <a id="Two_Column:Two_Column"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Two_Column$.html"><span class="name">Two_Column</span></a><span class="result"> extends <a href="DocumentFormat.html" class="extype" name="edu.holycross.shot.ohco2.DocumentFormat">DocumentFormat</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@Two_Column" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Two-column format, with lines representing
+citable nodes in document order.</p>
+    </li><li name="edu.holycross.shot.ohco2.Wf_Xml" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Wf_Xml"></a>
+      <a id="Wf_Xml:Wf_Xml"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Wf_Xml$.html"><span class="name">Wf_Xml</span></a><span class="result"> extends <a href="DocumentFormat.html" class="extype" name="edu.holycross.shot.ohco2.DocumentFormat">DocumentFormat</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@Wf_Xml" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Well-formed XML with citation encoded as
+specified in citation configuration.</p>
+    </li><li name="edu.holycross.shot.ohco2#fileName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="fileName(dir:String,f:String):String"></a>
+      <a id="fileName(String,String):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">fileName</span><span class="params">(<span name="dir">dir: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="f">f: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@fileName(dir:String,f:String):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Format directory plus file as a path String.</p><div class="fullcomment"><div class="comment cmt"><p>Format directory plus file as a path String.
+</p></div><dl class="paramcmts block"><dt class="param">dir</dt><dd class="cmt"><p>Directory name.</p></dd><dt class="param">f</dt><dd class="cmt"><p>File name</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2#formatForString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatForString(value:String):Option[edu.holycross.shot.ohco2.DocumentFormat]"></a>
+      <a id="formatForString(String):Option[DocumentFormat]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatForString</span><span class="params">(<span name="value">value: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<a href="DocumentFormat.html" class="extype" name="edu.holycross.shot.ohco2.DocumentFormat">DocumentFormat</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@formatForString(value:String):Option[edu.holycross.shot.ohco2.DocumentFormat]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Find <a href="DocumentFormat.html" class="extype" name="edu.holycross.shot.ohco2.DocumentFormat">DocumentFormat</a> value for
+a String name.</p><div class="fullcomment"><div class="comment cmt"><p>Find <a href="DocumentFormat.html" class="extype" name="edu.holycross.shot.ohco2.DocumentFormat">DocumentFormat</a> value for
+a String name.
+</p></div><dl class="paramcmts block"><dt class="param">value</dt><dd class="cmt"><p>String name of format.</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2#punctuationListRE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="punctuationListRE:scala.util.matching.Regex"></a>
+      <a id="punctuationListRE:Regex"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">punctuationListRE</span><span class="result">: <span class="extype" name="scala.util.matching.Regex">Regex</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@punctuationListRE:scala.util.matching.Regex" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Regular expression defining recognized punctuation characters.</p><div class="fullcomment"><div class="comment cmt"><p>Regular expression defining recognized punctuation characters.
+The list incudes all characters with the Unicode <code>Punctuation</code> prooerty
+plus a selection of other non-alphabetic characters known to be
+used as punctuation values in some digital editions.
+</p></div></div>
+    </li><li name="edu.holycross.shot.ohco2#twoColumnsFrom82xf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="twoColumnsFrom82xf(xf:String,inputDelimiter:String,outputDelimiter:String):String"></a>
+      <a id="twoColumnsFrom82xf(String,String,String):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">twoColumnsFrom82xf</span><span class="params">(<span name="xf">xf: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="inputDelimiter">inputDelimiter: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;#&quot;</span></span>, <span name="outputDelimiter">outputDelimiter: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;#&quot;</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@twoColumnsFrom82xf(xf:String,inputDelimiter:String,outputDelimiter:String):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Create two-column OHCO2 representation from
+a string in 82XF form.</p><div class="fullcomment"><div class="comment cmt"><p>Create two-column OHCO2 representation from
+a string in 82XF form. Note that 82XF input
+must already be ordered.
+</p></div><dl class="paramcmts block"><dt class="param">xf</dt><dd class="cmt"><p>String in 82XF form.</p></dd><dt class="param">inputDelimiter</dt><dd class="cmt"><p>String delimiting columns
+of 82XF input.</p></dd><dt class="param">outputDelimiter</dt><dd class="cmt"><p>String to use to delimit
+columns in two-column output.</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.ohco2#twoColumnsFromHocusPocus" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="twoColumnsFromHocusPocus(hpString:String,inputDelimiter:String,outputDelimiter:String):String"></a>
+      <a id="twoColumnsFromHocusPocus(String,String,String):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">twoColumnsFromHocusPocus</span><span class="params">(<span name="hpString">hpString: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="inputDelimiter">inputDelimiter: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;#&quot;</span></span>, <span name="outputDelimiter">outputDelimiter: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;#&quot;</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#edu.holycross.shot.ohco2.package@twoColumnsFromHocusPocus(hpString:String,inputDelimiter:String,outputDelimiter:String):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Create two-column OHCO2 representation from
+a string formatted in the tabular format of the hocuspocus class.</p><div class="fullcomment"><div class="comment cmt"><p>Create two-column OHCO2 representation from
+a string formatted in the tabular format of the hocuspocus class. Note that input
+must already be ordered.
+</p></div><dl class="paramcmts block"><dt class="param">inputDelimiter</dt><dd class="cmt"><p>String delimiting columns
+of hocuspocus input.</p></dd><dt class="param">outputDelimiter</dt><dd class="cmt"><p>String to use to delimit
+columns in two-column output.</p></dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
